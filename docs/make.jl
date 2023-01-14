@@ -3,10 +3,17 @@ using JuliaGo
 
 makedocs(
     sitename = "JuliaGo",
-    format = Documenter.HTML(prettyurls = false),
+    format = Documenter.HTML(prettyurls = true),
     modules = [JuliaGo],
     pages = ["Home" => "index.md", "Documentation" => "Documentation.md"],
 )
+
+deploydocs(
+    repo = "github.com/chris-haggard/JuliaGo.jl.git",
+)
+
+#=
+"
 
 # Documenter can also automatically deploy documentation to gh-pages.
 # See "Hosting Documentation" and deploydocs() in the Documenter manual
