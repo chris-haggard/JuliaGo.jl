@@ -1,6 +1,6 @@
 # JuliaGo.jl
 
-Github: https://github.com/chris-haggard/JuliaGo.jl
+Github: [github.com/chris-haggard/JuliaGo.jl](https://github.com/chris-haggard/juliago.jl)
 
 An Julia chess engine based on MCTS and neural networks, similar to AlphaGo. This is a hobby project to further my understanding of artificial intelligence in the context of games and the Julia programming language. This began as an attempt to implement the full [AlphaGo paper](https://www.nature.com/articles/nature16961). This combines MCTS, neural networks and reinforcement learning. I only tackle the first two due to resource constraints (lack of GPUs) and time!
 
@@ -111,10 +111,10 @@ The output of the NN a $8\times8\times73$ tensor, encoding the 73 possible moves
 
 ### Papers
 
-[Silver, D. et al. (2016) “Mastering the game of go with deep neural networks and Tree Search,” Nature, 529(7587), pp. 484–489. Available at: https://doi.org/10.1038/nature16961.](https://www.nature.com/articles/nature16961)
-
-[Silver, D. et al. (2018) “A general reinforcement learning algorithm that Masters Chess, Shogi, and go through self-play,” Science, 362(6419), pp. 1140–1144. Available at: https://doi.org/10.1126/science.aar6404. ](https://www.science.org/doi/10.1126/science.aar6404)
-
-[McGrath, T. et al. (2022) “Acquisition of chess knowledge in AlphaZero,” Proceedings of the National Academy of Sciences, 119(47). Available at: https://doi.org/10.1073/pnas.2206625119. ](https://www.pnas.org/doi/suppl/10.1073/pnas.2206625119)
-
 [^1] [Browne, C.B. et al. (2012) “A survey of Monte Carlo Tree Search Methods,” IEEE Transactions on Computational Intelligence and AI in Games, 4(1), pp. 1–43. Available at: https://doi.org/10.1109/tciaig.2012.2186810.](https://ieeexplore.ieee.org/document/6145622)
+
+[^2][Silver, D. et al. (2016) “Mastering the game of go with deep neural networks and Tree Search,” Nature, 529(7587), pp. 484–489. Available at: https://doi.org/10.1038/nature16961.](https://www.nature.com/articles/nature16961)
+
+[^3][Silver, D. et al. (2018) “A general reinforcement learning algorithm that Masters Chess, Shogi, and go through self-play,” Science, 362(6419), pp. 1140–1144. Available at: https://doi.org/10.1126/science.aar6404. ](https://www.science.org/doi/10.1126/science.aar6404)
+
+[^4][McGrath, T. et al. (2022) “Acquisition of chess knowledge in AlphaZero,” Proceedings of the National Academy of Sciences, 119(47). Available at: https://doi.org/10.1073/pnas.2206625119. ](https://www.pnas.org/doi/suppl/10.1073/pnas.2206625119)
